@@ -15,7 +15,6 @@ cd /mnt/data
 
 Create Secrets and Service Account
 ```
-kubectl apply -f docker-resource.yaml
 kubectl apply -f git-secret.yaml
 kubectl apply -f serviceaccount.yaml
 
