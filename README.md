@@ -32,7 +32,7 @@ Apply the git-clone from the catalog
 kubectl apply -f https://github.com/tektoncd/catalog/blob/master/task/git-clone/0.2/git-clone.yaml
 ```
 
-Create Pipeline and Piepilerun
+Create Pipeline and Pipelinerun
 
 ```
 kubectl create -f git-clone-checking-out-a-branch-secret.yaml
